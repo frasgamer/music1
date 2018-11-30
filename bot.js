@@ -130,9 +130,6 @@ ${serverQueue.songs.map(song => `**${++index} -** ${song.title}`).join('\n')}
 });
 
 
-client.on('ready', () => {
-  client.user.setGame(`!play`,'https://www.twitch.tv/By:A7MD');
-});
 
 
 
